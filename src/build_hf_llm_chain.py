@@ -42,7 +42,7 @@ def build_hf_llm_chain(hf_token):
     )
 
     # Prompt
-    with open("./context.txt", "r") as f:
+    with open("./assets/context.txt", "r") as f:
         resume = f.readlines()
     resume = "".join(resume)
 

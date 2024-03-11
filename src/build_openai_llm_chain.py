@@ -13,7 +13,7 @@ def build_openai_llm_chain(openai_api_key):
     )
 
     # Prompt
-    with open("./context.txt", "r") as f:
+    with open("./assets/context.txt", "r") as f:
         resume = f.readlines()
     resume = "".join(resume)
 

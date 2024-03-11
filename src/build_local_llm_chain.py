@@ -15,7 +15,7 @@ def build_local_llm_chain():
     model = HuggingFacePipeline.from_model_id(**pipeline_cfg)
 
     # Prompt
-    with open("./context.txt", "r") as f:
+    with open("./assets/context.txt", "r") as f:
         resume = f.readlines()
     resume = "".join(resume)
 

@@ -1,4 +1,5 @@
 import asyncio
+import os
 import time
 import streamlit as st
 
@@ -13,7 +14,7 @@ def select_llm_model():
     options = (
         "OpenAI (gpt-3.5-turbo-0125)",
         "Hugging Face (gemma-7b-it)",
-        "Local host (flan-t5-large)",
+        "Run LLM locally (flan-t5-large)",
     )
 
     option = st.sidebar.selectbox(
@@ -113,15 +114,26 @@ def select_llm_model():
 
     # Run locally
     else:
-        st.sidebar.markdown(
-            "This option runs the LLM locally on the app server."
-        )
+        st.sidebar.markdown("This option runs the LLM on the local machine.")
+
+        if not os.path.exists("hf_models"):
+            st.error(
+                "Pre-trained model weights not found. Please download the "
+                "weights first by running `./download_weights.sh`. Refer to "
+                "README.md for further instructions."
+            )
+            st.error(
+                "The option of running LLM locally is disabled when ChatDan "
+                "is hosted on the Streamlit community cloud due to resource "
+                "constraints."
+            )
+            return False
 
     return True
 
 
 def display_linkedin():
-    with open("./linkedin_badge.html") as f:
+    with open("./assets/linkedin_badge.html") as f:
         s = f.read()
     with st.sidebar:
         st.components.v1.html(s, height=500)
