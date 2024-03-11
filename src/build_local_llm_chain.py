@@ -7,7 +7,8 @@ from langchain.chains.conversation.memory import ConversationBufferMemory
 def build_local_llm_chain():
     # Model
     pipeline_cfg = {
-        "model_id": "google/flan-t5-large",
+        # "model_id": "google/flan-t5-large",
+        "model_id": "./hf_models/flan-t5-large",
         "task": "text2text-generation",
         "pipeline_kwargs": {"max_new_tokens": 512},
     }

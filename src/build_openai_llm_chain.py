@@ -7,7 +7,9 @@ from langchain.chains import LLMChain
 def build_openai_llm_chain(openai_api_key):
     # Model
     model = ChatOpenAI(
-        temperature=0, openai_api_key=openai_api_key, model_name="gpt-3.5-turbo-0125"
+        temperature=0,
+        openai_api_key=openai_api_key,
+        model_name="gpt-3.5-turbo-0125",
     )
 
     # Prompt

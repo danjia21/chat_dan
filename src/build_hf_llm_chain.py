@@ -28,7 +28,9 @@ class PatchedMemory(ConversationBufferMemory):
 def build_hf_llm_chain(hf_token):
     # repo_id = "mistralai/Mistral-7B-Instruct-v0.2"
     # repo_id = "google/gemma-7b-it"
-    endpoint_url = "https://api-inference.huggingface.co/models/google/gemma-7b-it"
+    endpoint_url = (
+        "https://api-inference.huggingface.co/models/google/gemma-7b-it"
+    )
     model = HuggingFaceEndpoint(
         endpoint_url=endpoint_url,
         task="text-generation",
