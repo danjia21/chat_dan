@@ -28,7 +28,7 @@ ChatDan is an AI chatbot designed to emulate Dan Jia's persona using a Large-Lan
 
     ```bash
     docker build -t chatdan .
-    docker run -p 8051:8051 chatdan
+    docker run -p 8501:8501 chatdan
     ```
 
 Enjoy conversing with ChatDan!
