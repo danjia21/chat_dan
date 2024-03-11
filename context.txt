@@ -1,0 +1,79 @@
+Name: Dan Jia
+LinkedIn profile: https://www.linkedin.com/in/dan-jia-ml
+
+Generalist machine learning scientist driven by passion for developing innovative solutions to real-world challenges.
+Extensive project experiences with deep learning, computer vision, natural language processing, and robotics.
+
+# Work Experience
+
+## Magna Electronics, currently working here since 2023, Machine Learning Engineer, München, Germany
+
+Designing object detection and segmentation algorithms with deep neural networks for automotive radar and LiDAR sensors.
+Leading the development of internal general-purpose ML/DL model training and tracking framework with PyTorch and MLFlow.
+
+## RWTH Aachen University, from 2019 to 2023, Scientific Researcher (Wissenschaftlicher Mitarbeiter), PhD candidate, Aachen, Germany
+
+Proposed a novel transformer-inspired architecture for 3D data analysis (eg object detection, semantic segmentation).
+Designed DR-SPAAM, a fast, state-of-the-art person detector for 2D LiDAR sensors. Jetson Project of the Month for September 2020. https://github.com/VisualComputingInstitute/2D_lidar_person_detection
+Designed a 3D-LiDAR-based person detector that won the JRDB 3D detection challenge in JRDB-ACT Workshop at CVPR 2021.
+Developed a multi-modal person detection and tracking system that is used on four robots across two European research projects.
+Published 6 papers in top-tier robotics and computer vision venues including ICRA/IROS/CVPR, participated in reviewing services.
+Led computer vision programming exercise (600+ participants), organized two seminar courses, and supervised 10 student projects.
+Proposed a self-supervised training method for 2D-LiDAR-based detector via automatically generated pseudo-training-labels.
+
+## Rapyuta Robotics, six months in 2017, Control Engineer Intern, Zürich, Switzerland
+
+Developed a vision-based landing module for automated quadrotor applications, achieving robust, high precision landing under various wind conditions in simulation and field testing.
+Conducted testing under various benign or adverse wind conditions in simulation and on real platforms.
+
+## Semester Project, ETH Zürich, Prof. Marco Hutter, three months in 2016, Zürich, Switzerland
+
+Developed a novel coverage path planning algorithm for mobile robots to autonomously explore unknown environments.
+Implemented the algorithm in C++, and enabled the ANYmal to autonomously explore unmapped environments.
+Published 1 paper, presented at the International Symposium on Safety, Security, and Rescue Robotics.
+
+## University of Illinois at Urbana-Champaign, Prof. Timothy Bretl and Prof. Grace Xingxin Gao, from 2012 to 2015, Research Assistant, Champaign, IL, USA
+
+Designed a low-cost, portable, GPS-based wind sensing system (best presentation of the session at the 26th ION GNSS+).
+Best presentation of the session at the 26th International Technical Meeting of the Satellite Division of the Institute of Navigation.
+Designed the controller for an aerial robotic system for inspecting and monitoring construction sites.
+Wrote a library in MATLAB and C for common state observers (Kalman Filter, EKF, UKF, Particle Filter).
+
+# Education
+
+Dr.-Ing. in Computer Science, from 2019, expected to graduate in Q4 of 2024. 
+RWTH Aachen University, Prof. Bastian Leibe, Aachen, Germany
+Thesis: Efficient LiDAR-based Person Detection on Mobile Robots
+
+M.Sc. in Mechanical Engineering, from 2015 to 2018
+ETH Zürich, Prof. Davide Scaramuzza, Zürich, Switzerland
+Thesis: Continuous Structure from Motion with an Event Camera (Grade: 5.75/6.00, top 10%)
+
+B.Sc. in Aerospace Engineering, from 2011 to 2015
+University of Illinois at Urbana-Champaign, Champaign, IL, USA
+Edmund J. James Scholar (awarded to top undergraduate students). Minor in Physics. 
+
+# Skills
+
+Programming: Python, C/C++, Java, MATLAB, Bash
+Tools and systems: Git, Docker, ROS, Ubuntu, AWS, GCP, FastAPI, SQL, MongoDB, Apache Spark, Databricks, Vim, LaTeX
+Machine Learning: PyTorch, Ray, TensorFlow, Scikit-learn, MLFlow, DVC, TensorRT, Pandas, Dask, Vaex, Airbyte, Hugging Face
+Language: Chinese (native), English (fluent), German (B1)
+
+# Certifications
+
+DeepLearning.AI course: Generative AI with Large Language Models
+url: https://coursera.org/share/f00c7b962aa6d01943a6d35a0a237f16
+
+DeepLearning.AI specialization: Machine Learning Engineer for Production (MLOps)
+url: https://coursera.org/verify/specialization/QNKZG2C3JGNC
+
+AWS specialization: DevOps on AWS
+url: https://www.coursera.org/verify/specialization/HX4ENY73CB3Y
+
+# Hobbies
+
+Photography
+Book: Novel, non-friction, history (Of Human Bondage by William Somerset Maugham is my favorite book)
+Music: Pieces from classical and romantic era (Piano Concerto no. 2 op. 18 from Rachmaninoff is my favorite piece)
+Sport: Badminton, running, sailing, fitness training
