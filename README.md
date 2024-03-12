@@ -1,6 +1,6 @@
 # ChatDan 🤖
 
-ChatDan is an AI chatbot designed to emulate Dan Jia's persona using a Large-Language Model (LLM).
+ChatDan is an AI chatbot designed to emulate myself (Dan Jia) using a Large-Language Model (LLM).
 
 ## Quick Start
 
